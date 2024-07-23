@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JBTB-React/static/css/main.26324d6a.css",
-    "main.js": "/JBTB-React/static/js/main.113b6793.js",
-    "static/js/453.0ab489a9.chunk.js": "/JBTB-React/static/js/453.0ab489a9.chunk.js",
-    "static/media/Sansation.ttf": "/JBTB-React/static/media/Sansation.d2b916eb34c210efcc42.ttf",
-    "index.html": "/JBTB-React/index.html",
-    "main.26324d6a.css.map": "/JBTB-React/static/css/main.26324d6a.css.map",
-    "main.113b6793.js.map": "/JBTB-React/static/js/main.113b6793.js.map",
-    "453.0ab489a9.chunk.js.map": "/JBTB-React/static/js/453.0ab489a9.chunk.js.map"
+    "main.css": "./static/css/main.a9f0e05d.css",
+    "main.js": "./static/js/main.703087eb.js",
+    "static/js/453.0ab489a9.chunk.js": "./static/js/453.0ab489a9.chunk.js",
+    "static/media/Sansation.ttf": "./static/media/Sansation.d2b916eb34c210efcc42.ttf",
+    "index.html": "./index.html",
+    "main.a9f0e05d.css.map": "./static/css/main.a9f0e05d.css.map",
+    "main.703087eb.js.map": "./static/js/main.703087eb.js.map",
+    "453.0ab489a9.chunk.js.map": "./static/js/453.0ab489a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26324d6a.css",
-    "static/js/main.113b6793.js"
+    "static/css/main.a9f0e05d.css",
+    "static/js/main.703087eb.js"
   ]
 }
