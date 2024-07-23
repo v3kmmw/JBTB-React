@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JBTB-React/static/css/main.00d05054.css",
-    "main.js": "/JBTB-React/static/js/main.c38912e9.js",
+    "main.css": "/JBTB-React/static/css/main.c1c8586d.css",
+    "main.js": "/JBTB-React/static/js/main.4044b7ed.js",
     "static/js/453.c7d8850f.chunk.js": "/JBTB-React/static/js/453.c7d8850f.chunk.js",
     "static/media/Sansation.ttf": "/JBTB-React/static/media/Sansation.d2b916eb34c210efcc42.ttf",
     "index.html": "/JBTB-React/index.html",
-    "main.00d05054.css.map": "/JBTB-React/static/css/main.00d05054.css.map",
-    "main.c38912e9.js.map": "/JBTB-React/static/js/main.c38912e9.js.map",
+    "main.c1c8586d.css.map": "/JBTB-React/static/css/main.c1c8586d.css.map",
+    "main.4044b7ed.js.map": "/JBTB-React/static/js/main.4044b7ed.js.map",
     "453.c7d8850f.chunk.js.map": "/JBTB-React/static/js/453.c7d8850f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00d05054.css",
-    "static/js/main.c38912e9.js"
+    "static/css/main.c1c8586d.css",
+    "static/js/main.4044b7ed.js"
   ]
 }
