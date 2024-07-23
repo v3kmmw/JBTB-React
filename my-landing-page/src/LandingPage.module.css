@@ -1,0 +1,11 @@
+.gradient-bg {
+    background: linear-gradient(to right, #000428, #004e92);
+  }
+  
+  .background {
+    background:linear-gradient(to top, rgb(15, 15, 15), rgba(18, 20, 19, 0.9), rgb(48, 23, 114));
+    background-size: cover;
+    background-color:black;
+    background-position: center;
+    min-height: 100vh;
+  }
