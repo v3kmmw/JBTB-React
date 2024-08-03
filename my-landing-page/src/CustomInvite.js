@@ -12,9 +12,10 @@ const CustomInvitePage = () => {
                     </a>
           <nav>
             <ul className="flex space-x-4">
+              <li><a href="https://status.jbtradebase.xyz" className="text-gray-300 hover:text-mint-400">Status</a></li>
               <li><a href="/" className="text-gray-300 hover:text-mint-400">Home</a></li>
-              <li><a href="/custominvite" className="text-gray-300 hover:text-mint-400">Custom Invite</a></li>
-              <li><a href="/upload" className="text-gray-300 hover:text-mint-400">Upload Proof</a></li>
+              <li><a href="/#/custominvite" className="text-gray-300 hover:text-mint-400">Custom Invite</a></li>
+              <li><a href="/#/upload" className="text-gray-300 hover:text-mint-400">Upload Proof</a></li>
             </ul>
           </nav>
         </div>
@@ -32,7 +33,7 @@ const CustomInvitePage = () => {
           </p>
           
           <div className="w-full flex justify-center mb-6">
-            <img src="https://jbtradebase.xyz/invite.gif" alt="Creating a custom invite GIF"
+            <img src="https://raw.githubusercontent.com/v3kmmw/JBTB-React/main/invite.gif" alt="Creating a custom invite GIF"
                  className="max-w-full rounded-lg border-2 border-black" />
           </div>
           <a href="/" className="inline-block px-6 py-3 text-lg bg-green-700 border-2 border-black rounded-lg transition duration-300 hover:bg-green-800 hover:border-4">

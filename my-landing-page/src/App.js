@@ -1,21 +1,20 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import LandingPage from './LandingPage';
-import UploadPage from './UploadPage'; // Import your new component
+import UploadPage from './UploadPage';
 import CustomInvitePage from './CustomInvite';
+import ExternalRedirect from './Redirect';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/upload" element={<UploadPage />} />
-          <Route path="/custominvite" element={<CustomInvitePage />} />
-          {/* Add other routes here */}
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} exact />
+        <Route path="/upload" element={<UploadPage />} exact />
+        <Route path="/custominvite" element={<CustomInvitePage />} exact />
+        <Route path="/invite" element={<ExternalRedirect to="https://discord.gg/tradebase" />} />
+      </Routes>
+    </HashRouter>
   );
 }
 

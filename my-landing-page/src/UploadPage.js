@@ -61,9 +61,10 @@ const UploadPage = () => {
           </a>
           <nav>
             <ul className="flex space-x-4">
+            <li><a href="https://status.jbtradebase.xyz" className="text-gray-300 hover:text-mint-400">Status</a></li>
               <li><a href="/" className="text-gray-300 hover:text-mint-400">Home</a></li>
-              <li><a href="/custominvite" className="text-gray-300 hover:text-mint-400">Custom Invite</a></li>
-              <li><a href="/upload" className="text-gray-300 hover:text-mint-400">Upload Proof</a></li>
+              <li><a href="/#/custominvite" className="text-gray-300 hover:text-mint-400">Custom Invite</a></li>
+              <li><a href="/#/upload" className="text-gray-300 hover:text-mint-400">Upload Proof</a></li>
             </ul>
           </nav>
         </div>
